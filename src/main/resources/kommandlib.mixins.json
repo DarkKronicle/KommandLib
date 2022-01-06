@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.darkkronicle.kommandlib.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ClientPlayerEntityMixin",
+    "ClientPlayNetworkHandlerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

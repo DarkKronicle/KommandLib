@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "kommandlib",
+  "version": "${version}",
+  "name": "KommandLib",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/kommandlib/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.darkkronicle.kommandlib.KommandLib"
+    ]
+  },
+  "mixins": [
+    "kommandlib.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
