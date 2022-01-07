@@ -4,6 +4,7 @@
   "package": "io.github.darkkronicle.kommandlib.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ArgumentTypesMixin",
     "ClientPlayerEntityMixin",
     "ClientPlayNetworkHandlerMixin"
   ],
