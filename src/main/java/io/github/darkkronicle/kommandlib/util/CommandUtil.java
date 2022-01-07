@@ -38,7 +38,7 @@ public class CommandUtil {
         return LiteralArgumentBuilder.literal(name);
     }
 
-    public static <T> RequiredArgumentBuilder<ServerCommandSource, T> argument(String name, ArgumentType<T> type) {
+    public static RequiredArgumentBuilder<ServerCommandSource, ?> argument(String name, ArgumentType<?> type) {
         return RequiredArgumentBuilder.argument(name, type);
     }
 
